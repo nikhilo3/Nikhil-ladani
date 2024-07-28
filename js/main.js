@@ -48,7 +48,6 @@ const download = () => {
     link.href = 'https://nikhilo3.github.io/Nikhil-ladani/img/cv/resume.pdf';
     link.download = 'nikhil-ladani-resume.pdf';
     link.click();
-
     link.remove();
 }
 

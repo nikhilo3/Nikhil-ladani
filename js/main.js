@@ -45,9 +45,10 @@ console.log(downloadcv);
 
 const download = () => {
     const link = document.createElement('a');
-    link.href = 'https://smallpdf.com/file#s=b415fccc-3a64-4fa1-b616-c0a432c050e2';
-    link.download = 'nikhil ladani resume.pdf';
+    link.href = 'https://nikhilo3.github.io/Nikhil-ladani/img/cv/resume.pdf';
+    link.download = 'nikhil-ladani-resume.pdf';
     link.click();
+
     link.remove();
 }
 

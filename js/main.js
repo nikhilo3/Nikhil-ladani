@@ -45,7 +45,7 @@ console.log(downloadcv);
 
 const download = () => {
     const link = document.createElement('a');
-    link.href = 'https://nikhilo3.github.io/Nikhil-ladani/img/cv/resume.pdf';
+    link.href = 'https://nikhilo3.github.io/Nikhil-ladani/img/cv/resume-1.pdf';
     link.download = 'nikhil-ladani-resume.pdf';
     link.click();
     link.remove();
